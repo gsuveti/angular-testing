@@ -2,7 +2,7 @@ import {AppComponent} from './app.component';
 import {AuthService} from './auth.service';
 
 
-describe('AppComponent: Testing with spies`', () => {
+xdescribe('AppComponent: Testing with spies`', () => {
     let component: AppComponent;
     let service: AuthService;
     let spy: any;
