@@ -1,6 +1,6 @@
 import {InitCapsPipe} from './init-caps.pipe';
 
-describe('InitCapsPipe', () => {
+xdescribe('InitCapsPipe', () => {
     let pipe: InitCapsPipe;
 
     beforeEach(() => {
