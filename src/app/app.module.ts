@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InitCapsPipe } from './init-caps.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InitCapsPipe
   ],
   imports: [
     BrowserModule,
