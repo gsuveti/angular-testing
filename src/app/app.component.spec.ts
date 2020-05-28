@@ -29,7 +29,7 @@ describe('AppComponent', () => {
         appFixture = TestBed.createComponent(AppComponent);
         appComponent = appFixture.componentInstance;
 
-        // UserService provided to the TestBed
+        // AuthService provided to the TestBed
         authService = TestBed.inject(AuthService);
     }));
 
