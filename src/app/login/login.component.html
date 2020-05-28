@@ -1,0 +1,9 @@
+<div class="content" role="main">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <label for="email">Email</label>
+        <input autocomplete="username" id="email" type="email" formControlName="email">
+        <label for="password">Password</label>
+        <input autocomplete="current-password" id="password" type="password" formControlName="password">
+        <button [disabled]="!loginForm.valid" class="btn" type="submit">Login</button>
+    </form>
+</div>

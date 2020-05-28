@@ -2,7 +2,7 @@ import {AppComponent} from './app.component';
 import {AuthService} from './auth.service';
 
 
-xdescribe('AppComponent: Testing with the real `AuthService`', () => {
+describe('AppComponent: Testing with the real `AuthService`', () => {
 
     let component: AppComponent;
     let service: AuthService;

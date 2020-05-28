@@ -11,7 +11,7 @@ class MockAuthService extends AuthService {
 }
 
 
-xdescribe('AppComponent: Mocking by overriding functions', () => {
+describe('AppComponent: Mocking by overriding functions', () => {
     let component: AppComponent;
     let service: MockAuthService;
 

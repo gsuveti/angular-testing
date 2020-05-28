@@ -1,6 +1,6 @@
 import {helloWorld} from './hello-world';
 
-xdescribe('Hello world', () => {
+describe('Hello world', () => {
 
     let expected = '';
 
